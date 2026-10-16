@@ -14,7 +14,5 @@ spec:
 
 
 
-aws eks describe-addon \
-  --cluster-name roboshop \
-  --addon-name vpc-cni \
+
   

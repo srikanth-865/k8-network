@@ -10,3 +10,11 @@ spec:
   - Ingress
 
 # Now pods in roboshop namespace denies all incoming traffic including pods with in the namespace also
+
+
+
+
+aws eks describe-addon \
+  --cluster-name roboshop \
+  --addon-name vpc-cni \
+  
